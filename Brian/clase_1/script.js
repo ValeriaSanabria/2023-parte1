@@ -1,3 +1,8 @@
+// siempre debo traer un elemento con query para poder hacerle algo como añadir class
+// o para ver el padre o el hijo
+
+
+
 // selecciono el div1 con la clase
 let div1 = document.querySelector(".contenedor1");
 
@@ -19,3 +24,7 @@ let multiplesDivs = document.querySelectorAll("div");
 
 console.log(multiplesDivs[0]);
 console.log(multiplesDivs[3]);
+
+// me muestra el primer hijo del div seleccionado
+let hijosdiv2 = div2.children;
+console.log(hijosdiv2);
