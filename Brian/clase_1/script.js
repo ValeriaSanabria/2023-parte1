@@ -42,3 +42,12 @@ let btn = document.getElementById("enviar");
 btn.addEventListener("click", function(e) {
     console.log("Hola tierra del fuego");
 });
+
+// PARA USAR FUNCION FLECHA TENGO QUE DECLARARLA ANTES DE LLAMAR AL BOTON*******************
+
+let verificarClick = () => {
+    console.log("Hola a todos");
+};
+
+let boton = document.getElementById("insertar");
+boton.addEventListener("click", verificarClick);
