@@ -28,3 +28,17 @@ console.log(multiplesDivs[3]);
 // me muestra el primer hijo del div seleccionado
 let hijosdiv2 = div2.children;
 console.log(hijosdiv2);
+
+let btn = document.getElementById("enviar");
+
+// APLICANDO LA FORMA NORMAL DE LA FUNCION//ACCESIBLE PARA CUALQUIER BOTON***********
+// btn.addEventListener("click", verificarClick);
+
+// function verificarClick() {
+//     console.log("Hola tierra del fuego");
+// };
+
+// APLICANDO FUNCION ANONIMA//UNICAMENTE ACCESIBLE PARA ESTE BOTON***************
+btn.addEventListener("click", function(e) {
+    console.log("Hola tierra del fuego");
+});
