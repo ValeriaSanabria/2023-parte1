@@ -51,3 +51,12 @@ let verificarClick = () => {
 
 let boton = document.getElementById("insertar");
 boton.addEventListener("click", verificarClick);
+
+// LLAMADO DE FUNCION POR PARAMETRO********
+function saludar(parametro){
+    console.log("Hola ",parametro);
+}
+
+let nombre = "Valeria";
+
+saludar(nombre);
