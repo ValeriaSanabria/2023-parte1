@@ -1,0 +1,19 @@
+{
+
+    "status": "DC",
+    "persona": [
+        {
+            "nombre": "Lucas",
+            "apellido": "Martinez",
+            "edad": "45",
+            "sexo": "Masculino",
+            "dni": "45334553",
+            "casado": "true"
+        }
+
+
+    ]
+
+
+
+}
