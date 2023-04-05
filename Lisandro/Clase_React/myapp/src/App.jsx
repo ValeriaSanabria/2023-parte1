@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './componentes/header/header.jsx';
 import Content from './componentes/content/content.jsx';
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <p>Hola mathi</p>
+      <p>Hola mundo</p>
       <Content/>
       <Footer/>
     </div>
