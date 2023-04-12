@@ -1,0 +1,17 @@
+componente funcional
+const [count, setCount] 
+const [Message, setMessage] 
+
+useEffect
+connt = 0 ? "haz click en el boton para comenzar" : "el contador esta en '${contador}'";
+[]
+const incrementCount =() =>  {
+    setCount + 1
+}
+
+return (
+    div 
+    h2 contador
+h3 imprimir la variable Message
+button onclick incrementar
+)
